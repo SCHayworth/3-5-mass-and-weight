@@ -13,11 +13,11 @@ mass = float(input('Please enter an object\'s mass in kg: '))
 weight = mass * 9.8
 
 # Display the result
-print(f'{mass} kg is eqal to {weight} newtons.')
+print(f'\n{mass} kg is eqal to {weight} newtons.')
 
 # If weight is above 500, prints a message saying the object is too heavy, and if weight is below 100, prints a message
 # saying the object is too light.
 if weight > 500:
-  print('This object is too heavy!')
+  print('\nThis object is too heavy!')
 elif weight < 100:
-  print('This object is too light!')
+  print('\nThis object is too light!')
