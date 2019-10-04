@@ -7,7 +7,7 @@
 # and too light if it is less than 100 newtons.
 
 # Prompt user for mass in kilograms and stores the result in mass
-mass = float(input('Please enter an object's mass in kg: '))
+mass = float(input('Please enter an object\'s mass in kg: '))
 
 # Converts mass to weight in newtons by multiplying by 9.8
 weight = mass * 9.8
