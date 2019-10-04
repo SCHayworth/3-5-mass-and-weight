@@ -15,6 +15,7 @@ def convert_to_weight(mass):
   
 # Asks user if they would like to run the program again, and sets the run_again varible to false if not.
 def repeat_query():
+  repeat = ''
   while repeat != 'y' or repeat != 'Y' or repeat != 'n' or repeat != 'N':
     repeat = input('Would you like to run the program again (y/n)? ')
     if repeat == 'y' or repeat == 'Y':
