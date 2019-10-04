@@ -17,7 +17,7 @@ def convert_to_weight(mass):
 def repeat_query():
   repeat = ''
   while repeat != 'y' or repeat != 'Y' or repeat != 'n' or repeat != 'N':
-    repeat = input('Would you like to run the program again (y/n)? ')
+    repeat = input('\nWould you like to run the program again (y/n)? ')
     if repeat == 'y' or repeat == 'Y':
         return True
     elif repeat == 'n' or repeat == 'N':
