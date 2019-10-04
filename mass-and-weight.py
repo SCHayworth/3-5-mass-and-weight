@@ -46,6 +46,7 @@ run_again = True
 
 # Loops the main program as long as run_again is True
 while run_again == True:
+  print("\033c") # Clears the screen
   main()
   another_time = repeat_query()
   run_again = another_time
